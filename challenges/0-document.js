@@ -12,3 +12,9 @@ function asNegative(n) {
     return n
   }
 }
+
+//Test cases
+
+console.log("asNegative(5):", asNegative(5), "should be 5")
+console.log("asNegative(-5):", asNegative(-5), "should be -5")
+console.log("asNegative(0):", asNegative(0), "should be 0")
